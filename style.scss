@@ -1,23 +1,19 @@
-
-#container{
-  position:absolute;
-  left:20px;
-  top:20px;
-  right:20px;
-  bottom:20px;
-  font-family:Arial, sans-serif;
-  color:#fff;
-  background-color:#52a5de;
+#container {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  right: 10px;
+  bottom: 10px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  overflow-x: hidden;
 }
-.page_content{
-  background-color:#ee233b;
-  width:800px;
-  height:600px;
+.page_content {
+  width: 800px; 
   -ms-transform-origin: top left;
   -webkit-transform-origin: top left;
   transform-origin: top left;
   -webkit-transition: all 500ms ease-in-out !important;
   transition: all 500ms ease-in-out !important;
   position: absolute;
-
 }

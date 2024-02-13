@@ -1,7 +1,7 @@
 var pageWidth, pageHeight;
 
 var basePage = {
-  width: 800,
+  width: 763,
   height: 600,
   scale: 1,
   scaleX: 1,
@@ -35,23 +35,7 @@ $(function () {
     basePage.scaleX = scaleX;
     basePage.scaleY = scaleY;
     basePage.scale = scaleX > scaleY ? scaleY : scaleX;
-
-    var newLeftPos = Math.abs(
-      Math.floor((basePage.width * basePage.scale - maxWidth) / 2)
-    );
-    var newTopPos = Math.abs(
-      Math.floor((basePage.height * basePage.scale - maxHeight) / 2)
-    );
-
-    page.attr(
-      "style",
-      "-webkit-transform:scale(" +
-        basePage.scale +
-        ");left:" +
-        newLeftPos +
-        "px;top:" +
-        newTopPos +
-        "px;"
-    );
+    var scaleValue = basePage.scale - 0.03;   
+    page.attr("style", "-webkit-transform:scale(" + scaleValue + ");");
   }
 });
