@@ -1,0 +1,19 @@
+#container {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  right: 20px;
+  bottom: 20px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #52a5de;
+}
+
+.page_content {
+  background-color: #ee233b;
+  width: 800px;
+  height: 600px;
+  transform-origin: top left;
+  transition: all 500ms ease-in-out !important;
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
