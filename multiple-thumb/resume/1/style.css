@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+:root {
+  --theme-clr: #28467a;
+  --theme-gray: #333333;
+  --theme-light-gray: #e7e7e7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.resume-page {
+  width: 763px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+#stellar-cobalt {
+  background-color: #fff;
+  color: #000;
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+}
+#stellar-cobalt main {
+  position: relative;
+}
+#stellar-cobalt .summary-column {
+  float: right;
+  width: 250px;
+  padding-left: 16px;
+  margin-left: 16px;
+  background-color: #fff;
+}
+#stellar-cobalt .shifted-inside-list {
+  margin-left: 20px;
+}
+#stellar-cobalt .list-style-none {
+  list-style: none;
+}
+#stellar-cobalt .intern-company {
+  font-size: 16px;
+  font-weight: 500;
+}
+#stellar-cobalt .header-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+#stellar-cobalt .header-info .name-pic {
+  display: flex;
+  align-items: center;
+  max-width: 50%;
+}
+#stellar-cobalt .header-info .name-role {
+  margin-left: 10px;
+  text-align: left;
+}
+#stellar-cobalt .header-info .name {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 700;
+}
+#stellar-cobalt .header-info .role {
+  font-weight: 300;
+  color: var(--theme-clr);
+  font-size: 18px;
+  text-align: left;
+}
+#stellar-cobalt .header-info .contact-info {
+  max-width: 50%;
+  text-align: right;
+  display: flex;
+}
+#stellar-cobalt .header-info .contact-info ul {
+  list-style-type: none;
+}
+#stellar-cobalt .header-info .contact-info ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+#stellar-cobalt .header-info .contact-info img {
+  background-color: #000;
+  margin-left: 10px;
+  padding: 2px;
+  border-radius: 5px;
+}
+#stellar-cobalt .header-info .contact-info .email,
+#stellar-cobalt .header-info .contact-info .mobile {
+  text-decoration: none;
+}
+#stellar-cobalt .profile-pic {
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--theme-clr);
+}
+#stellar-cobalt .ach li p {
+  margin: 0;
+}
+#stellar-cobalt .prof-summary {
+  margin: 10px 0;
+}
+#stellar-cobalt .prof-summary p {
+  margin: 0;
+}
+#stellar-cobalt .contact-info a {
+  color: #000;
+}
+#stellar-cobalt section {
+  margin-bottom: 10px;
+}
+#stellar-cobalt .work-exp .job-role {
+  font-size: 16px;
+  font-weight: 500;
+}
+#stellar-cobalt .work-exp .company {
+  font-size: 11px;
+  font-weight: 400;
+}
+#stellar-cobalt .work-exp .workdone,
+#stellar-cobalt .work-exp .respo,
+#stellar-cobalt .work-exp .achievement {
+  font-weight: 600;
+  margin-top: 6.5px;
+}
+#stellar-cobalt .work-exp .duration {
+  background-color: #28467a;
+  padding: 5px 13px;
+  color: #fff;
+  font-size: 12px;
+}
+#stellar-cobalt .career-timeline .job-role {
+  font-size: 13px;
+  font-weight: 500;
+}
+#stellar-cobalt .career-timeline .company {
+  font-size: 11px;
+  margin-bottom: 0;
+}
+#stellar-cobalt .section-title {
+  font-weight: normal;
+  text-transform: capitalize;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+#stellar-cobalt .soft-skills-badge {
+  list-style-type: none;
+}
+#stellar-cobalt .soft-skills-badge li {
+  display: inline-block;
+  background-color: var(--theme-clr);
+  margin-bottom: 5px;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  margin-right: 3px;
+  text-transform: capitalize;
+}
+#stellar-cobalt .skill-with-rating {
+  display: flex;
+  justify-content: space-between;
+}
+#stellar-cobalt .skill-with-rating .name {
+  display: inline-block;
+}
+#stellar-cobalt .skill-with-rating .stars {
+  text-wrap: nowrap;
+  white-space: nowrap;
+}
+#stellar-cobalt .certi .year,
+#stellar-cobalt .certi .name {
+  display: block;
+}
+#stellar-cobalt .certi .name {
+  font-weight: 500;
+}
+#stellar-cobalt .certi p {
+  margin: 0;
+}
+#stellar-cobalt .certi a {
+  color: #000;
+}
+#stellar-cobalt .edu .course,
+#stellar-cobalt .edu .inst,
+#stellar-cobalt .edu .duration {
+  display: block;
+}
+#stellar-cobalt .edu .inst {
+  color: var(--theme-gray);
+}
+#stellar-cobalt .edu ul li {
+  margin-bottom: 10px;
+}
+#stellar-cobalt .lang ul li,
+#stellar-cobalt .hobbies ul li {
+  display: inline-block;
+  background-color: var(--theme-clr);
+  color: #fff;
+  margin-bottom: 5px;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+#stellar-cobalt .project h3.title {
+  font-weight: normal;
+  font-size: 18px;
+  text-align: left;
+  color: #000;
+}
+#stellar-cobalt .sidebar-line-v7 {
+  border-left: 2px solid #28467a;
+  position: relative;
+  margin-left: 12px;
+  padding-bottom: 4px;
+}
+#stellar-cobalt .career-timeline-container-v7 .sidebar-line-v7::before {
+  content: " ";
+  display: block;
+  width: 8px;
+  top: 0;
+  left: -7px;
+  height: 30px;
+  position: absolute;
+}
+#stellar-cobalt .career-timeline-content-v7 {
+  margin-bottom: 6px;
+}
+#stellar-cobalt .career-timeline-content-v7:last-child {
+  margin-bottom: 0;
+}
+
+#stellar-cobalt .career-timeline-set-v7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#stellar-cobalt .career-timeline-left-v7,
+#stellar-cobalt .work-experience-date-v7,
+#stellar-cobalt .intership-exp-date-v7 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#stellar-cobalt .career-timeline-left-v7::before,
+#stellar-cobalt .work-experience-date-v7::before,
+#stellar-cobalt .intership-exp-date-v7::before {
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 2px;
+  background-color: #28467a;
+}
+#stellar-cobalt .career-timeline-right-v7 {
+  width: 65%;
+  margin-left: 30px;
+}
+#stellar-cobalt .career-date-v7,
+#stellar-cobalt .intership-date-v7 {
+  background-color: #28467a;
+  padding: 5px;
+  color: #fff;
+  font-size: 11px;
+  width: 135px;
+  display: flex;
+  justify-content: center;
+  text-wrap: nowrap;
+}
+#stellar-cobalt .career-date-v7::before,
+#stellar-cobalt .experience-date-v7::before,
+#stellar-cobalt .intership-date-v7::before {
+  border-radius: 50%;
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #28467a;
+  background-color: white;
+  position: absolute;
+  left: -13px;
+}
+#stellar-cobalt .career-timeline-right-v7 h6,
+#stellar-cobalt .work-experience-data-v7 h4,
+#stellar-cobalt .intership-exp-date-v7 h4 {
+  font-size: 14px;
+  margin: 0;
+}
+#stellar-cobalt .career-timeline-right-v7 p {
+  font-size: 11px;
+  color: #5c5c5c;
+}
+#stellar-cobalt .work-experience-set-v7,
+#stellar-cobalt .internship-set-v7 {
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+#stellar-cobalt .experience-date-v7,
+#stellar-cobalt .intership-date-v7 {
+  padding: 6px 7px 6px 9px;
+}
+#stellar-cobalt .work-experience-data-v7,
+#stellar-cobalt .intership-exp-data-v7 {
+  padding-left: 20px;
+}
+#stellar-cobalt .work-experience-data-v7 ul,
+#stellar-cobalt .work-experience-data-v7 p,
+#stellar-cobalt .intership-exp-data-v7 ul,
+#stellar-cobalt .freelance-exp-container-v7 ul,
+#stellar-cobalt .projects-container-v7 ul,
+#stellar-cobalt .core-competencies-container-v7 ul,
+#stellar-cobalt .certifications-container-v7 ul,
+#stellar-cobalt .education-container-v7 ul,
+#stellar-cobalt .achievements-container-v7 ul {
+  font-size: 11px;
+  margin-bottom: 0;
+}
+#stellar-cobalt .work-experience-data-v7 ul li,
+#stellar-cobalt .intership-exp-data-v7 ul li {
+  line-height: 19px;
+}
+#stellar-cobalt .work-experience-data-v7 h4,
+#stellar-cobalt .intership-exp-data-v7 h4,
+#stellar-cobalt .freelance-exp-container-v7 h4 {
+  font-size: 18px;
+}
+#stellar-cobalt .work-experience-data-v7 h6 {
+  font-size: 14px;
+}
+#stellar-cobalt .work-experience-data-v7 .points-exp-v7 {
+  margin-bottom: 3px;
+  margin-top: 12px;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+  @page {
+    size: A4;
+    margin: 20px;
+  }
+  body {
+    padding: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

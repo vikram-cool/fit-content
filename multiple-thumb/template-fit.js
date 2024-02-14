@@ -41,6 +41,4 @@ $(function () {
   }
   console.log("Hello");
 });
-$(".resume-container").load(
-  "https://getresumes.myoutshine.com/139229ea/index.html"
-);
+$(".resume-container").load("/multiple-thumb/resume/1/index.html");
