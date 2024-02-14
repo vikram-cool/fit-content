@@ -41,4 +41,4 @@ $(function () {
   }
   console.log("Hello");
 });
-$(".resume-container").load("fit-content/multiple-thumb/resume.html");
+$(".resume-container").load("resume.html");
