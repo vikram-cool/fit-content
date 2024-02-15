@@ -39,6 +39,5 @@ $(function () {
     var scaleValue = basePage.scale - 0.01;
     page.attr("style", "-webkit-transform:scale(" + scaleValue + ");");
   }
-  console.log("Hello");
 });
 $(".resume-container").load("resume.html");
