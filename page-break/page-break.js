@@ -1,4 +1,4 @@
-const pageWidth = 320;
+const pageWidth = 763;
 const content = document.getElementById("content");
 const totalWidth = content.scrollWidth;
 const totalPages = totalWidth / pageWidth;
