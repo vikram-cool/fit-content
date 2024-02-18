@@ -9,11 +9,11 @@ figure {
   overflow: auto;
   border: 1px solid #ccc;
   -moz-column-fill: auto;
-       column-fill: auto;
+  column-fill: auto;
   -moz-column-gap: 0;
-       column-gap: 0;
+  column-gap: 0;
   -moz-column-width: 763px;
-       column-width: 763px;
+  column-width: 763px;
 }
 
 .page-clip {
@@ -35,13 +35,13 @@ figure {
   width: 763px;
   height: 286mm;
   -moz-column-fill: auto;
-       column-fill: auto;
+  column-fill: auto;
   -moz-column-gap: 0;
-       column-gap: 0;
+  column-gap: 0;
   -moz-column-width: 763px;
-       column-width: 763px;
+  column-width: 763px;
 }
 
 .resume-page {
   width: inherit !important;
-}/*# sourceMappingURL=page-break.css.map */
+} /*# sourceMappingURL=page-break.css.map */
