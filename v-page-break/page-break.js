@@ -3,6 +3,7 @@ $(document).ready(function () {
     "https://getresumes.myoutshine.com/139229ea/index.html",
     function () {
       pageBreak();
+      $(".resume-page").css("width", "740px");
     }
   );
 });
@@ -11,7 +12,8 @@ function pageBreak() {
   const pageWidth = 763;
   const content = document.getElementById("content");
   const totalWidth = content.scrollWidth;
-  const totalPages = totalWidth / pageWidth;
+  // const totalPages = Math.floor(totalWidth / pageWidth);
+  const totalPages = Math.floor(totalWidth / pageWidth);
   console.log("totalPages", totalPages);
 
   let contentVisible = true;
@@ -45,4 +47,19 @@ function pageBreak() {
   }
 
   showHideContent();
+}
+
+function scalePreviewPage() {
+  var $page = $(".page_content");
+
+  getPageSize();
+  scalePages($page, pageWidth, pageHeight);
+
+  //using underscore to delay resize method till finished resizing window
+  $(window).resize(
+    _.debounce(function () {
+      getPageSize();
+      scalePages($page, pageWidth, pageHeight);
+    }, 150)
+  );
 }
