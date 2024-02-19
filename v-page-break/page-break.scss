@@ -1,0 +1,33 @@
+#content {
+  margin: 20px auto;
+  width: 763px;
+  height: 286mm;
+  overflow: auto;
+  border: 1px solid #ccc;
+  column-fill: auto;
+  column-gap: 0;
+  column-width: 763px;
+}
+.page-clip {
+  width: 763px;
+  height: 286mm;
+  overflow: hidden;
+}
+.page-wrapper {
+  width: 763px;
+  height: 286mm;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(75, 75, 75, 0.2);
+}
+.page {
+  width: 763px;
+  height: 286mm;
+  column-fill: auto;
+  column-gap: 0;
+  column-width: 763px;
+}
+// .resume-page {
+//   width: inherit !important;
+// }
